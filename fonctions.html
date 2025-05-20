@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fonctionnalités</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-banner">Kit Sécurité Vélo – Fonctionnalités</div>
+
+  <header>
+    <img src="logo.png" alt="Logo" class="logo">
+    <div class="header-center">
+      <h1>Fonctionnalités</h1>
+      <div class="subtitle">Cliquez sur une carte pour en savoir plus</div>
+    </div>
+  </header>
+
+  <main>
+    <div class="card-grid">
+      <div class="card" onclick="openTab('feux')">
+        <h3>💡 Gestion des Feux</h3>
+        <p>Éclairage automatique, clignotants...</p>
+      </div>
+      <div class="card" onclick="openTab('donnees')">
+        <h3>📊 Analyse des Données</h3>
+        <p>Collecte des trajets, affichage, interface...</p>
+      </div>
+      <div class="card" onclick="openTab('verrouillage')">
+        <h3>🔒 Verrouillage Antivol</h3>
+        <p>Bluetooth, alarme, blocage...</p>
+      </div>
+    </div>
+
+    <section id="feux" class="detail-section">
+      <h2>💡 Gestion des Feux</h2>
+      <ul>
+        <li>Activation selon luminosité</li>
+        <li>Clignotants synchronisés</li>
+        <li>Autonomie 10h minimum</li>
+      </ul>
+    </section>
+
+    <section id="donnees" class="detail-section">
+      <h2>📊 Analyse des Données</h2>
+      <ul>
+        <li>Affichage toutes les 5 sec</li>
+        <li>Interface web/mobile intuitive</li>
+        <li>Transmission fiable (&gt;95%)</li>
+      </ul>
+    </section>
+
+    <section id="verrouillage" class="detail-section">
+      <h2>🔒 Verrouillage Antivol</h2>
+      <ul>
+        <li>Détection d’éloignement &gt;10m</li>
+        <li>Blocage des roues &lt;2s</li>
+        <li>Alerte sonore 90 dB</li>
+      </ul>
+    </section>
+  </main>
+
+  <script>
+    function openTab(id) {
+      document.querySelectorAll('.detail-section').forEach(el => el.style.display = 'none');
+      document.getElementById(id).style.display = 'block';
+    }
+  </script>
+</body>
+</html>
