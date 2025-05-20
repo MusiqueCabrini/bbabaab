@@ -1,0 +1,30 @@
+header{
+    background-color: aliceblue;
+    display: flex;
+    height: 10%;
+    width: 10%;
+
+}
+#lum{
+    background-color: green;
+    margin-left: 75px;
+}
+#magik{
+    background-color: red;
+}
+#vit-text{
+    text-align: center;
+    background-color: cornflowerblue;
+}
+#vit img{
+    padding: 10px;
+}
+#vit{
+    text-align: center;
+    align-content: center;
+    align-self: center;
+
+}
+#container-vit {
+    margin-right: 75px;
+}
