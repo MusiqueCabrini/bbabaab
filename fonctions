@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fonctionnalités – Sécurité Vélo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+    </nav>
+
+    <section class="intro">
+        <h2>Fonctionnalités du Kit</h2>
+        <p>Choisissez une carte pour découvrir la solution de chaque membre du groupe.</p>
+    </section>
+
+    <section class="cards">
+        <div class="card" onclick="location.href='#feux';">
+            <h3>💡 Gestion des Feux</h3>
+            <p>Éclairage adaptatif et clignotants automatiques.</p>
+        </div>
+        <div class="card" onclick="location.href='#donnees';">
+            <h3>📊 Analyse des Données</h3>
+            <p>Suivi, collecte et affichage des trajets et données en temps réel.</p>
+        </div>
+        <div class="card" onclick="location.href='#verrouillage';">
+            <h3>🔒 Sécurité Antivol</h3>
+            <p>Détection d’éloignement et verrouillage automatique.</p>
+        </div>
+    </section>
+
+    <section id="feux" class="details">
+        <h2>💡 Gestion des Feux</h2>
+        <ul>
+            <li>Activation automatique selon la luminosité</li>
+            <li>Clignotement synchronisé avec l’intention de tourner</li>
+            <li>Autonomie de 10 heures minimum</li>
+        </ul>
+    </section>
+
+    <section id="donnees" class="details">
+        <h2>📊 Analyse des Données</h2>
+        <ul>
+            <li>Affichage des données toutes les 5 secondes</li>
+            <li>Interface intuitive, réactive</li>
+            <li>Stockage de 1000 événements minimum</li>
+        </ul>
+    </section>
+
+    <section id="verrouillage" class="details">
+        <h2>🔒 Sécurité Antivol</h2>
+        <ul>
+            <li>Détection d’éloignement (10m)</li>
+            <li>Verrouillage automatique en 2s</li>
+            <li>Déverrouillage rapide + alarme sonore 90dB</li>
+        </ul>
+    </section>
+
+</body>
+</html>
